@@ -25,6 +25,7 @@ public class CourseController {
 	}
 	@GetMapping("/courses")
 	public List<Course> fetchCourseList(){
+		System.out.println("Hello yatin");
 		return courseService.fetchCourseList();
 	}
 	
