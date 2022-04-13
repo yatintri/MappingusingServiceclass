@@ -17,7 +17,8 @@ public class CourseMaterialController {
 	
 	@Autowired
 	private CourseMaterialService courseMaterialService;
-	
+
+	//this is post mapping
 	@PostMapping("/courseMaterial")
 	public CourseMaterial saveCourseMaterial(@RequestBody CourseMaterial courseMaterial) {
 		return courseMaterialService.saveCourseMaterial(courseMaterial);
