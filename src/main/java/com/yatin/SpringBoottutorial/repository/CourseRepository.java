@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.yatin.SpringBoottutorial.entity.Course;
 
+//done by yatin
 @Repository
 @Transactional
 public interface CourseRepository extends JpaRepository<Course, Long>{
