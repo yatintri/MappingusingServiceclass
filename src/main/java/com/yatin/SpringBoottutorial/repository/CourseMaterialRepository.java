@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.yatin.SpringBoottutorial.entity.CourseMaterial;
 
+//this is repo
 @Repository
 @Transactional
 public interface CourseMaterialRepository extends JpaRepository<CourseMaterial, Long> {
