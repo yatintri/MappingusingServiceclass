@@ -14,6 +14,7 @@ import com.yatin.SpringBoottutorial.entity.Course;
 //import com.yatin.SpringBoottutorial.repository.CourseMaterialRepository;
 import com.yatin.SpringBoottutorial.service.CourseService;
 
+//this is controller course
 @RestController
 public class CourseController {
 	@Autowired
